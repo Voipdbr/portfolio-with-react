@@ -1,0 +1,127 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: contents;
+    position: contents;
+    top: 0;
+    height: auto;
+    width: 100%;
+    overflow-x: auto;
+}
+
+body {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bodysttyp {
+    background-color: rgb(73, 73, 73);
+    transition: 0s;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(29, 44, 107);
+    border-radius: 1px;
+    transition: 5s;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: linear-gradient(rgb(79, 79, 255), rgb(255, 0, 0));
+    border-radius: 1px;
+    transition: 1s;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6464ff;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(rgb(87, 87, 255), rgb(255, 15, 15));
+    border-radius: 15px;
+    transition: 5s;
+}
+
+.navbar {
+    display: block;
+    position: sticky;
+    justify-content: space-around;
+    max-width: 100%;
+    min-height: 100px;
+    background-color: #191b1c;
+    border-bottom: 5px solid rgb(10, 13, 121);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    transition: 1s;
+}
+
+.navbar:hover {
+    transition: 1s;
+    padding-bottom: 30px;
+    background-color: #000000;
+    border-bottom: 10px solid rgb(184, 187, 247);
+}
+
+.navbar::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.navbar__logo {
+    max-width: 100%;
+    position: relative;
+}
+
+.ism_bar {
+    display: block;
+    position: absolute;
+    max-width: 100%;
+    transform: translateX(5px);
+    transition: 1s;
+}
+
+.ism_bar:hover {
+    transition: 1s;
+    max-width: 100%;
+    transform: translateX(20px);
+}
+
+.img-responsive {
+    top: 12px;
+    display: block;
+    width: 290px;
+    height: 60px;
+    max-width: 100%;
+    padding-right: 100px;
+    overflow: hidden;
+    margin-left: 20px;
+    transition: 1s;
+    transform: translateX(5px);
+    background: url('./images/icon_2132lak2o1k3jk1mk.png') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+.img-responsive:hover {
+    transition: 1s;
+    max-width: 100%;
+    transform: translateX(20px);
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+@media screen and (max-width:500px) {
+    .img-responsive {
+        display: none;
+    }
+
+}

@@ -1,0 +1,144 @@
+.main_home {
+    margin: 0;
+}
+
+.divwelcome{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.welcome{
+    display: block;
+    margin-top: 20%;
+    margin-bottom: 50%;
+    animation: gradient 5s infinite;
+    transition: 0.5s;
+}
+
+.welcome:hover{
+    font-size: 50px;
+    transition: 0.5s;
+
+}
+
+@keyframes gradient{
+    0%{
+        color: white;
+    }
+    50%{
+        color:blueviolet;
+    }
+    100%{
+        color: white;
+    }
+}
+
+.person{
+    animation: text1 5s infinite;
+    transition: 1s;
+}
+
+@keyframes text1{
+    0%{
+        text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+    }
+    25%{
+            text-shadow: 5px 1px 1px #919191,
+            5px 2px 1px #919191,
+            5px 3px 1px #919191,
+            5px 4px 1px #919191,
+            5px 5px 1px #919191,
+            5px 6px 1px #919191,
+            5px 7px 1px #919191,
+            5px 8px 1px #919191,
+            5px 9px 1px #919191,
+            5px 10px 1px #919191,
+        5px 18px 6px rgba(16,16,16,0.4),
+        5px 22px 10px rgba(16,16,16,0.2),
+        5px 25px 35px rgba(16,16,16,0.2),
+        5px 30px 60px rgba(16,16,16,0.4);
+    }
+    50%{
+        text-shadow: -1px 1px 1px #919191,
+        -1px 2px 1px #919191,
+        -1px 3px 1px #919191,
+        -1px 4px 1px #919191,
+        -1px 5px 1px #919191,
+        -1px 6px 1px #919191,
+        -1px 7px 1px #919191,
+        -1px 8px 1px #919191,
+        -1px 9px 1px #919191,
+        -1px 10px 1px #919191,
+    -1px 18px 6px rgba(16,16,16,0.4),
+    -1px 22px 10px rgba(16,16,16,0.2),
+    -1px 25px 35px rgba(16,16,16,0.2),
+    -1px 30px 60px rgba(16,16,16,0.4);
+    }
+    75%{
+        text-shadow: -5px 1px 2px #919191,
+        -5px 2px 2px #919191,
+        -5px 3px 2px #919191,
+        -5px 4px 2px #919191,
+        -5px 5px 2px #919191,
+        -5px 6px 2px #919191,
+        -5px 7px 2px #919191,
+        -5px 8px 2px #919191,
+        -5px 9px 2px #919191,
+        -5px 10px 2px #919191,
+    -5px 18px 6px rgba(16,16,16,0.4),
+    -5px 22px 10px rgba(16,16,16,0.2),
+    -5px 25px 35px rgba(16,16,16,0.2),
+    -5px 30px 60px rgba(16,16,16,0.4);
+}
+100%{
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 10px rgba(16,16,16,0.2),
+1px 25px 35px rgba(16,16,16,0.2),
+1px 30px 60px rgba(16,16,16,0.4);
+}
+}
+
+.person:hover{
+    animation: none;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+    transition: 1s;
+}

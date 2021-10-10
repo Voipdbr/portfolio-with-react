@@ -1,0 +1,168 @@
+                                        .burger {
+                                            display: none;
+                                            margin-top: 5px;
+                                            margin-right: 55px;
+                                        }
+                                        
+                                        .burger div {
+                                            width: 25px;
+                                            height: 3px;
+                                            background-color: white;
+                                            margin: 5px;
+                                        }
+                                        
+                                        @media screen and (max-width: 100000px) {
+                                            .gear {
+                                                display: none;
+                                            }
+                                            .active {
+                                                display: none;
+                                            }
+                                            .noactive {
+                                                display: block;
+                                            }
+                                            .navbar_links ul {
+                                                overflow: none;
+                                                height: 0;
+                                                background: transparent;
+                                            }
+                                            .navbar_links1 {
+                                                margin-top: 0px;
+                                                margin-right: 0px;
+                                                margin-bottom: 0px;
+                                            }
+                                            .navbar_links li {
+                                                margin: 0px 20px;
+                                            }
+                                            .navbar_links ul {
+                                                overflow: none;
+                                            }
+                                            .i {
+                                                transition: 0s;
+                                                margin: 68px 0px 0px;
+                                                transform: translateX(100%);
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width:1920px) {
+                                            .gear {
+                                                display: none;
+                                            }
+                                            .active {
+                                                display: none;
+                                            }
+                                            .noactive {
+                                                display: block;
+                                            }
+                                            .navbar_links ul {
+                                                overflow: none;
+                                                height: 0;
+                                                background: transparent;
+                                            }
+                                            .navbar_links1 {
+                                                margin-top: 0px;
+                                                margin-right: 0px;
+                                                margin-bottom: 0px;
+                                            }
+                                            .navbar_links li {
+                                                margin: 0px 20px;
+                                            }
+                                            .i {
+                                                margin: 68px 0px 0px;
+                                                transition: 0s;
+                                                transform: translateX(100%);
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width:1575px) {
+                                            .gear {
+                                                display: block;
+                                            }
+                                            .active {
+                                                display: block;
+                                            }
+                                            .noactive {
+                                                display: none;
+                                            }
+                                            .navbar_links ul {
+                                                overflow-y: scroll;
+                                                height: 600px;
+                                                border-radius: 50px;
+                                                background: radial-gradient(transparent, #6f18fa);
+                                                height: 600px;
+                                                padding-top: 0px;
+                                            }
+                                            body {
+                                                overflow-x: hidden;
+                                            }
+                                            .navbar_links li {
+                                                margin: 0px 0px;
+                                                display: contents;
+                                            }
+                                            .bg_noaccept {
+                                                position: fixed;
+                                                right: 0px;
+                                                height: 0px;
+                                                background-color: transparent;
+                                                top: 5vh;
+                                                margin-bottom: 100%;
+                                                transition: 1s;
+                                                display: flex;
+                                                flex-direction: column;
+                                                transform: translateX(100%);
+                                            }
+                                            .bg_noaccept:hover {
+                                                background-color: transparent;
+                                                transition: 1s;
+                                            }
+                                            .i {
+                                                background-color: rgb(22, 7, 56);
+                                                list-style: none;
+                                                text-decoration: none;
+                                                transition: 0s;
+                                                padding: 10px 20px;
+                                                border-radius: 9px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: left;
+                                                margin: 28px 0px 68px;
+                                                transform: translateX(0%);
+                                            }
+                                            .i:hover {
+                                                transition: 0s;
+                                                background-color: rgb(33, 3, 104);
+                                            }
+                                            .burger {
+                                                display: block;
+                                                cursor: pointer;
+                                            }
+                                            .bg_noaccept.open {
+                                                transition: 1s;
+                                                transform: translateX(68%);
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width:768px) {
+                                            .gear {
+                                                display: block;
+                                            }
+                                            .active {
+                                                display: block;
+                                            }
+                                            .navbar_links ul {
+                                                overflow: auto;
+                                                height: 600px;
+                                                padding-top: 0px;
+                                            }
+                                            .noactive {
+                                                display: none;
+                                            }
+                                            .navbar_links li {
+                                                margin: 0px 0px;
+                                                display: contents;
+                                            }
+                                            .bg_noaccept.open {
+                                                transition: 1s;
+                                                transform: translateX(60%);
+                                            }
+                                        }
