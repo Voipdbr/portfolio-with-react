@@ -78,6 +78,21 @@
     font-size: 20px;
 }
 
+@media screen and (max-width: 500px) {
+
+    .skill-dados:hover{
+        font-size: 30px;
+        transition: 1s;
+    }
+    
+    .skill-star:hover{
+        color: yellow;
+        font-size: 40px;
+        transition: 1s;    
+    }    
+
+}
+
 @media screen and (max-width: 360px) {
 
     .skill-dados:hover{

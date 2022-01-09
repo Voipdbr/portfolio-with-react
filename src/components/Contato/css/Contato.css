@@ -87,6 +87,15 @@
     text-align: center;
 }
 
+@media screen and (max-width: 500px) {
+    .contact-conteudo{
+        border-radius: 10px;
+        height: 200px;
+        width: 300px;
+    }
+    
+}
+
 @media screen and (max-width: 360px) {
     .contact-conteudo{
         border-radius: 10px;
