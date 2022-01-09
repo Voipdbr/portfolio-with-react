@@ -1,0 +1,94 @@
+.Resumo{
+    margin: 0 0 5% 0;
+    text-align: -webkit-center;
+    color: white;
+}
+
+.Resumo table{
+    margin: 0;
+}
+
+.resumo-title{
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    transition: 1s;
+}
+
+.resumo-title:hover{
+    display: block;
+    font-size: 50px;
+    transition: 1s;
+}
+
+.resumo-answer{
+    text-align: center;
+}
+
+.Skill{
+    text-align: -webkit-center;
+}
+
+.skill-title{
+    text-align: center;
+}
+
+.skill-dados{
+    transition: 1s;
+}
+
+.skill-dados:hover{
+    font-size: 50px;
+    transition: 1s;
+}
+
+.skill-nameskill{
+
+}
+
+.skill-nameskill:hover{
+    animation: skill 4s linear infinite;    
+}
+
+@keyframes skill {
+    0%{
+        font-weight: 400;
+    }
+    50%{
+        font-weight: 900;
+    }
+    100%{
+        font-weight: 400;
+    }
+}
+
+.skill-star{
+    color: white;
+    transition: 1s;
+}
+
+.skill-star:hover{
+    color: yellow;
+    font-size: 60px;
+    transition: 1s;    
+}
+
+.question{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 360px) {
+
+    .skill-dados:hover{
+        font-size: 30px;
+        transition: 1s;
+    }
+    
+    .skill-star:hover{
+        color: yellow;
+        font-size: 40px;
+        transition: 1s;    
+    }    
+
+}

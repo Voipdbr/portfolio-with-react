@@ -8,18 +8,28 @@ import "./css/style-settings.css"
 function Header(){
     return(
         <header className="page-header">
-        <div className="active">
+            <div className="active">
             <div className="navbar_links">
                 <div className="navbar_links1">
                     <div className="rit" onClick={() => toggleClass()}/>
                 </div>
                 <ul className="bg_noaccept open">
-                    <li><a href="/" className="i">Inicio</a></li>
-                    <li><a href="/" className="i">Resumo</a></li>
-                    <li><a href="/" className="i">Projetos</a></li>
-                    <li><a href="/" className="i">Contato</a></li>
-                    <li><a href="/" className="i">Mídias Sociais</a></li>
-                    <li><a href="/" className="i">Página de Vídeos</a></li>
+                    <li><a href="/#Home" className="i">Inicio</a></li>
+                    <li><a href="/#Summary" className="i">Resumo</a></li>
+                    <li><a href="/#Projects" className="i">Projetos</a></li>
+                    <li><a href="/#Contact" className="i">Contato</a></li>
+                    <li><a href="/#SocialMedia" className="i">Mídias Sociais</a></li>
+                    <li><a href="https://youtube.com/ismaeljose" className="i">Página de Vídeos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div className="gear gearcset">
+            <div className="geardisp">
+                <ul>
+                    <li>
+                        <input type="checkbox"/>
+                        Menu Superior / Lateral
+                    </li>
                 </ul>
             </div>
         </div>
@@ -56,27 +66,17 @@ function Header(){
                         </div>
                     </div>
                     <ul className="bg_noaccept">
-                        <li><a href="/ " className="i">Inicio</a></li>
-                        <li><a href="/ " className="i">Resumo</a></li>
-                        <li><a href="/ " className="i">Projetos</a></li>
-                        <li><a href="/ " className="i">Contato</a></li>
-                        <li><a href="/ " className="i">Mídias Sociais</a></li>
-                        <li><a href="/ " className="i">Página de Vídeos</a></li>
+                        <li><a href="/#Home" className="i">Inicio</a></li>
+                        <li><a href="/#Summary" className="i">Resumo</a></li>
+                        <li><a href="/#Projects" className="i">Projetos</a></li>
+                        <li><a href="/#Contact" className="i">Contato</a></li>
+                        <li><a href="/#SocialMedia" className="i">Mídias Sociais</a></li>
+                        <li><a href="/" className="i">Página de Vídeos</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <script src="/js/settings.js "></script>
-        <div className="gear gearcset">
-            <div className="geardisp">
-                <ul>
-                    <li>
-                        <input type="checkbox"/>
-                        Menu Superior / Lateral
-                    </li>
-                </ul>
-            </div>
-        </div>
     </header>
     );
 }
